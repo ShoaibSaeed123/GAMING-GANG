@@ -1,0 +1,39 @@
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(94, 22, 22);
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #ffd700; 
+}
+
+.game-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+    transform: scale(1.05); 
+}
+
+.game-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: vh;
+}
